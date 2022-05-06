@@ -1,0 +1,426 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    body{
+        background-color: black;
+    }
+    nav{
+        display: flex;
+        background-color: black;    
+        position: fixed;
+        width: 100%;
+        justify-content: center;
+        justify-content: space-evenly;
+        padding: 50px;
+    
+    }
+    
+    ul{
+        display: flex;
+        background-color: black; 
+        flex-direction: column;
+        justify-content: center;     
+        flex-wrap: nowrap;
+        font-family: Arial, Helvetica, sans-serif;    
+        
+    }
+    ul li{                 
+        font-size: 15px;
+        display: inline-block;
+        margin: 0 100px;
+    
+    }
+    ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    .encabezado-1{
+        color: white;
+    }
+    header{
+        background-color: black;
+        padding-top: 200px;
+    }
+    header h1{
+        font-size: 35px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-align: center;       
+    }
+    p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    
+    main{
+        background-color: black;
+        padding-top: 150px;
+    }
+    .h2-intro{
+        font-size: 20px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .intro{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        text-align: left;
+        padding-top: 40px;
+    }
+
+    /* cambio padding-top ul-footer */
+    .ul-footer{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;        
+        padding-top: 350px
+        
+    }
+    .copy{
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;    
+    
+    
+    }
+    h3{
+        font-size: 30px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    form{  
+        padding-left: 25px;  
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .div-contacto{
+        padding-top: 25px;
+    }
+    .intro-nos{    
+        padding-top: 25px;
+        text-align: left;
+    }
+    .productos{
+        font-size: 25px;
+        text-align: left;
+        padding: 50px;
+    }
+    table{     
+        margin: 10px; 
+        border-collapse: collapse;
+        text-align: left;
+        width: 10%;          
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        background-color: grey;  
+        
+    }
+    th, td{
+        border: solid 1px black;
+    }
+    
+    h2{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 50px; 
+    }
+    .fila-galeria{
+        background-color: grey;
+        border: solid   rgb(65, 63, 63);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;    
+        grid-gap: 30px;     
+    }
+    .desc{
+        display: flex;
+        /* text-align: left; */
+        flex-direction: row;
+        border: solid white;
+        background-color: yellow;
+        font-family: Arial, Helvetica, sans-serif;   
+        color: black;
+        font-size: 11px;
+    }
+    
+    img{   
+        width: 40px   
+        
+    }
+    .img{
+        display: flex;
+        align-items: center;        
+        
+    }
+
+    .locura{
+        padding-left: 20px;
+    }
+    .h3-ubi{
+        text-align: center;
+    }
+    .img-ubi{
+        padding-left: 60px;
+        padding-top: 50px; 
+        width: 220px;
+    }
+
+
+
+
+@media screen and (min-width: 768px){
+
+
+    .intro-nos{
+        padding-top: 120px;
+    }
+    .ul-footer{
+        padding-top: 300px;
+    }
+    .h2-intro{
+        font-size: 40px;
+    }
+    .intro{
+        font-size: 15px;
+    }
+    table{
+        margin: 20px;
+        width: 40%;
+    }
+    img{   
+        width: 50px
+    }
+    .img{
+        display: flex;
+        align-items: center;        
+        
+    }
+    .desc{
+        display: flex;
+        flex-direction: row;
+        border: solid white;
+        background-color: yellow;
+    }
+
+    .locura{
+        padding-left: 200px;
+    }
+    .img-ubi{    
+        width: 330px;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    
+    nav{       
+        background-color: black;    
+        position: fixed;
+        width: 100%;      
+        padding: 50px;
+    
+    }
+    
+    ul{  
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: black;  
+        list-style-type: none;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;        
+    }
+    
+    
+    ul li{  
+        font-size: 30px;
+        display: inline-block;
+        margin: 0 100px;
+
+        transition-property: all;
+        transition-duration: .5s;
+        transition-timing-function: ease;    
+    }
+
+    ul li:hover{
+        transform: scale(2);
+    }
+    
+    ul li a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    .encabezado-1{
+        color: white;
+    }
+    header{
+        background-color: black;
+        padding-top: 300px;
+    }
+    
+    header h1{
+        font-size: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+        text-align: center;       
+    }
+    
+    
+    p{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    
+    main{
+        background-color: black;
+        padding-top: 150px;
+    }
+    
+    .h2-intro{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .intro{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        padding-top: 50px;
+    }
+    
+    .ul-footer{
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;
+        padding-top: 100px;
+    }
+    
+    .copy{
+        background-color: black;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;    
+    
+    
+    }
+    
+    
+    h3{
+        font-size: 50px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    form{  
+        padding-left: 25px;  
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .div-contacto{
+        padding-top: 25px;
+    }
+    
+    
+    /* cambio para bootstrap intro-nos */
+    .intro-nos{    
+        padding-top: 100px;
+        text-align: left;
+    }
+    
+    
+    
+    .productos{
+        font-size: 50px;
+        text-align: left;
+        padding: 50px;
+    }
+    
+    table{     
+        margin: 50px;
+        border-collapse: collapse;  
+        text-align: left;
+        width: 50%;          
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        background-color: grey;  
+        
+    }
+    
+    th, td{
+        border: solid 1px black;
+    }
+    
+    h2{
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 50px; 
+    }
+    
+    
+    .fila-galeria{
+        background-color: grey;
+        border: solid   rgb(65, 63, 63);
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;    
+        grid-gap: 200px;     
+    }
+    
+    .img{
+        display: flex;
+        align-items: center;        
+        
+    }
+    .desc{
+        display: flex; 
+        justify-content: center;
+        width: 50%;     
+        bottom: 150px;
+        left: 200px;
+        border: solid white;      
+        font-family: Arial, Helvetica, sans-serif;   
+        color: black; 
+        font-size: 30px;      
+
+    }   
+    
+    img{   
+        width: 200px   
+        
+    } 
+    .h3-ubi{
+        text-align: center;
+        padding-top: 100px;
+    }
+    .locura{
+        padding-left: 670px;
+    }
+    .img-ubi{      
+        padding-top: 150px; 
+        width: 450px;      
+    
+        
+        animation-name: ubi;
+        animation-iteration-count: 1;
+        animation-timing-function: ease;
+        animation-duration: 10s;
+        animation-delay: .5s;
+    }
+    
+    @keyframes ubi {
+        0%{
+            transform: translateX(1000px);
+        }
+        50%{
+            transform: translateX(20px);
+        }
+        100%{
+            transform: translateX(0px);
+        }
+    }
+    
+}
